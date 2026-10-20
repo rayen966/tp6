@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopStyle - Boutique en ligne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2 class="logo">ShopStyle</h2>
+        <ul class="menu">
+            <li class="c33"><a href=""">Accueil</a></li>
+            <li class="c33"><a href="">Produits</a></li>
+            <li class="c33"><a href="">Categories</a></li>
+            <li class="c33"><a href="">Commande</a></li>
+        </ul>
+       
+    </nav>
+
+    <!-- Accueil -->
+    <header id="accueil">
+        <h2>bienvenue chez ShopStyle</h2>
+        <p>Decouvrez nos meilleurs produits aux meilleurs prix.</p>
+        <button type="button">Decouvrir les produits</button>
+    </header>
+
+    <!-- Produits -->
+    <section id="produits">
+        <h2 class="titre">Nos produits</h2>
+        <div class="c1">
+            <img src="chaussures.jpg" alt="">
+            <h1>chaussures sport</h1>
+            <p>prix : 120DT</p>
+            <button type="button" class="c2">Command</button>
+        </div>
+        <div class="c1">
+            <img src="sac.jpg" alt="">
+            <h1>chaussures sport</h1>
+            <p>prix : 85DT</p>
+            <button type="button" class="c2">Command</button>
+        </div>
+        <div class="c1">
+            <img src="montre.jpg" alt="">
+            <h1>chaussures sport</h1>
+            <p>prix : 150DT</p>
+            <button type="button" class="c2">Command</button>
+        </div>
+        
+    </section>
+
+    <!-- Catégories -->
+    <section id="categories">
+        <h2 class="titre">Nos catégories</h2>
+        <div class="c2">
+            <ul>
+                <li class="c3">Vetements</li>
+                <li class="c3">Chaussures</li>
+                <li class="c3">Sacs</li>
+                <li class="c3">Accessoires</li>
+                <li class="c3">montres</li>
+            </ul>
+        </div>
+
+        
+    </section>
+
+    <!-- Tableau -->
+    <section id="tableau">
+        <h2 class="titre">Liste des prix</h2>
+        <table border="1">
+            <tr>
+                <th>produit</th>
+                <th>categorie</th>
+                <th>prix</th>
+            </tr>
+            <tr>
+                <td>chaussures sport</td>
+                <td>chaussures</td>
+                <td>120DT</td>
+            </tr>
+            <tr>
+                <td>sac a main </td>
+                <td>sacs</td>
+                <td>85DT</td>
+            </tr>
+            <tr>
+                <td>montre classqiue </td>
+                <td>accesoires</td>
+                <td>150DT</td>
+            </tr>
+        </table>
+
+
+      
+    </section>
+
+    <!-- Formulaire -->
+    <section id="commande">
+        <h2 class="titre">Passer une commande</h2>
+        <div class="c4">
+        <form action="">
+        <label for="">Nom complet:</label><br>
+        <input type="text" class="c5" id="" placeholder="Votre nom"><br>
+        <label for="">Adresse e-mail</label><br>
+        <input type="email" name="" class="c5" id="" placeholder="exemple@gmail.com"><br>
+        <label for=""> Choisir un produit </label><br>
+        <select name="" id="produit" class="c5">
+            <option value="">Chaussures sport</option>
+            <option value="">Sac a main</option>
+            <option value="">Montre classique</option>
+        </select><br>
+        <label for="">Quantité</label><br>
+        <input type="number" name="quan" class="c5" id="quan" value="1" min="1">
+        <label for="">Adresse de liraison</label>
+        <textarea name="adresse" id="adresse " class="c5" rows="3" placeholder="votre adresse"></textarea>
+        <button type="submit" class="c6">Confirmer la commande </button>
+        </form>
+    </section>
+        </div>
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2026 ShopStyle - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
